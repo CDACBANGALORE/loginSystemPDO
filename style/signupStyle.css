@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.main_box {
+    height: 100vh;
+    flex-direction: column;
+}
+div.parent_box {
+    background-color: white;
+}
+
+input {
+    outline: none;
+}
+
+@media screen and (min-width: 800px) {
+    .inputSize {
+        font-size: 1.3rem;
+    }
+}
